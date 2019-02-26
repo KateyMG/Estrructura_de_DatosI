@@ -1,0 +1,33 @@
+public class Nodo {
+
+    public int Numero_Seguridad;
+    public String Nombre;
+    public boolean trabajo;
+    public int total_dias;
+
+
+    public Nodo enlace;
+
+    public Nodo(int Numero_Seguridad, String Nombre, int total_dias)
+    {
+        this.Nombre = Nombre;
+        this.Numero_Seguridad = Numero_Seguridad;
+        this.total_dias=total_dias;
+
+        enlace=null;
+    }
+
+    public Nodo(int Numero_Seguridad, String Nombre, int total_dias, boolean trabajo)
+    {
+        this.Nombre = Nombre;
+        this.Numero_Seguridad = Numero_Seguridad;
+        this.total_dias=total_dias;
+        this.trabajo = true;
+        enlace=null;
+
+    }
+
+
+
+
+}
