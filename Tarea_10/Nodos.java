@@ -45,7 +45,7 @@ public class Nodos {
                 int xf1 = pot2-1;
                 System.out.println(pot1+dere[0]+")^"+xf+ " "+pot2+"x^"+xf1+" "+izdo.dato);
                 System.out.println("+");
-                System.out.println("e^2x*2");
+                System.out.println("e^2x*2");//no puedo derivar esto, solo potencia
 
 
           }
